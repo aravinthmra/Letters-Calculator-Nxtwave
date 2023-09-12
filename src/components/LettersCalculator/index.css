@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+.bg-container1 {
+  background-image: linear-gradient(to right, #219a6f, #93f9b9);
+  height: 100vh;
+  width: 100%;
+  color: #ffffff;
+  padding: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Roboto';
+}
+
+.main-container1 {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 0;
+}
+
+p {
+  margin-bottom: 8px;
+}
+
+input {
+  border-style: solid;
+  border-color: #ffffff;
+  color: #ffffff;
+  border-width: 1px;
+  border-radius: 8px;
+  background-color: transparent;
+  outline: none;
+  margin-bottom: 16px;
+  height: 32px;
+  padding: 8px;
+}
+
+.letter-button1 {
+  background-color: #ffffff;
+  color: #1d976c;
+  font-size: 32px;
+  font-weight: bolder;
+  border: none;
+  border-radius: 12px;
+  height: 64px;
+}
+
+.letters-calculator-image1 {
+  width: 60%;
+}
